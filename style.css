@@ -1,3 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Lobster&display=swap');
 body{
-    background-color: #bb9292;
+    margin: 0 5% 0 5%;
+    background-color: #383838;
+}
+a{
+    text-decoration: none;
+}
+/*not-copy-block*/
+.copy-block{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.header{
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+    /*background-color: #4c73a8;*/
+}
+.logotype{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.logotype img{
+    height: 12vh;
+}
+.text-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0 0 0 2vh;
+}
+.spot{
+    position: relative;
+    font-family: 'Assistant', sans-serif;
+    font-size: xxx-large;
+    font-weight: bold;
+    color: white;
+}
+.rp{
+    position: relative;
+    bottom: -16px;
+    right: 40px;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: xxx-large ;
+    color: #3880e5;
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+}
+.menu{
+    display: flex;
+    width: auto;
+}
+
+.menu div{
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    margin: auto 3vh;
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
 }
