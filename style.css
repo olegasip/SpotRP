@@ -241,17 +241,109 @@ main{
 }
 /*FOOTER*/
 footer{
-    display: flex;
-    justify-content: center;
-    flex-shrink: 0;
-
+    /*background-color: rgba(101, 20, 27, 0.2);*/
     width: auto;
-    height: 11vmax;
+    /*height: 22vh;*/
+    /*display: block;*/
+    flex-shrink: 0;
 }
-footer img{
-    width: 100px;
-    height: 100px;
+.top-footer-block h5{
+    text-align: center;
+    font-size: 1.6vmax;
+    font-weight: bold;
 }
+.top-footer-block{
+    padding-top: 0.6vh;
+}
+.top-footer-block h5{
+    color: white;
+    font-size: 1.4rem;
+}
+.body-footer-block{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin: 0.4vh 2% 0.4vh 2%;
+}
+.footer-ico-1{
+    background-image: url("ico/youtube.png");
+    width: 8vh;
+    height: 8vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.footer-ico-2{
+    background-image: url("ico/facebook.png");
+    width: 8vh;
+    height: 8vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.footer-ico-3{
+    background-image: url("ico/telegram.png");
+    width: 8vh;
+    height: 8vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.footer-ico-4{
+    background-image: url("ico/twitter.png");
+    width: 8vh;
+    height: 8vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.watermark a{
+    font-family: 'Farro', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.watermark:hover a{
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0), 0 0 0.5em rgba(255, 255, 255, 0.2), 0 0 0.2em rgba(255, 255, 255, 0);
+}
+.botton-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.botton-footer-block{
+    /*height: 4vmax;*/
+    /*width: 33.3%;*/
+    /*background-color: rgba(0, 0, 0, 0.18);*/
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.footer-mail-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-mail-block div a{
+    color: white;
+}
+.footer-mail-block div a:hover{
+    color: #3880e5;
+}
+
 /*MEDIA*/
 
 @media only screen and (max-width: 768px){
