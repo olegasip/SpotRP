@@ -9,7 +9,7 @@
 # THANKS
 
     <name>
-    <@whoisdobryakov>
+    <@fin.aco>
 
 # TECHNOLOGY COLOPHON
 
