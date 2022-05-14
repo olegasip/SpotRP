@@ -122,7 +122,28 @@ a{
     height: 6vmin;
 }
 
-
+/*basket*/
+.basket{
+    background-image: url("ico/basket.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1.8rem;
+    width: 1.8rem;
+    position: relative;
+}
+.ptc{
+    display: flex;
+    background-color: #3880e5;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 100%;
+    position: absolute;
+    top: -0.17rem;
+    right: -0.5rem;
+    font-size: 0.5rem;
+    justify-content: center;
+}
 /*MAIN*/
 main{
     height: max-content;
@@ -188,7 +209,6 @@ main{
     font-weight: 300;
     color: white;
     padding: 1.01rem;
-    ;
 }
 .btn-1{
     background-color: #3880e5
@@ -202,11 +222,6 @@ main{
 .btn-2:hover{
     background-color: #20335e;
 }
-
-
-
-
-
 .imgman2{
     /*width: 100%;*/
     background-image: url("img/mans2.png");
@@ -239,12 +254,85 @@ main{
 .text-padding{
     padding-left: 2rem;
 }
+/*SHOP*/
+.card{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
+.list-group{
+    width: 100%;
+}
+.list-group-item{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.btn-ptc button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+.btn-ptc div{
+    width: 3rem;
+    height: 3rem;
+    border: 0.13rem solid rgba(255, 255, 255, 0.5);
+    border-radius: 0.3rem;
+    margin: 0 1rem 0 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-plus{
+    background-image: url("ico/plus.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+}
+.btn-minus{
+    background-image: url("ico/minus-button.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+}
+.btn-cor{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    color: white;
+    margin-top: 0.8vw;
+    margin-bottom: 1vw;
+}
+.btn-cor span{
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-right: 10%;
+}
+.btn-cor a{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    padding: 1.01rem;
+}
 /*FOOTER*/
 footer{
     /*background-color: rgba(101, 20, 27, 0.2);*/
     width: auto;
     /*height: 22vh;*/
-    /*display: block;*/
+    /*display: flex;*/
     flex-shrink: 0;
 }
 .top-footer-block h5{
@@ -347,11 +435,20 @@ footer{
 /*MEDIA*/
 
 @media only screen and (max-width: 768px){
-    .logo{
+    .logotype a div{
         display: none;
+    }
+    .header{
+        justify-content: center;
     }
 }
 @media only screen and (max-width: 576px){
+    .header{
+        justify-content: space-between;
+    }
+    .logotype a div{
+        display: flex;
+    }
     .con-2 div{
         padding: 0;
     }
@@ -361,8 +458,8 @@ footer{
     .imgman2{
         height: 85vw;
     }
-    .logo{
-        display: inline;
+    .logotype{
+        display: inherit;
     }
     .btn-flex div{
         font-size: 0.8rem;
