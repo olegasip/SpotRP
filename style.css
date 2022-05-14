@@ -431,6 +431,67 @@ footer{
 .footer-mail-block div a:hover{
     color: #3880e5;
 }
+/*PLAY*/
+.block-play{
+    display: flex;
+}
+.text-play h2{
+    text-align: center;
+}
+.text-play p{
+    color: #939393;
+    line-height: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.inst-1, .inst-2, .inst-3{
+    background-color: #334458;
+    border-radius: 3rem;
+    width: 60%;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+}
+.inst-1, .inst-2, .inst-3 p {
+    color: #939393;
+    line-height: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.inst-1-1{
+    padding: 1.4rem;
+}
+.btn-downl{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-top: 0.8vw;
+    margin-bottom: 1vw;
+}
+.btn-downl a{
+    display: flex;
+    align-items: center;
+    /*background-color: indianred;*/
+    height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    padding: 1.01rem;
+}
+.img-4{
+    background-image: url("img/man1.png");
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 25rem;
+}
+.img-5{
+    background-image: url("img/mans3.png");
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 25rem;
+}
 
 /*MEDIA*/
 
@@ -440,6 +501,9 @@ footer{
     }
     .header{
         justify-content: center;
+    }
+    .img-4{
+        /*height: 40rem;*/
     }
 }
 @media only screen and (max-width: 576px){
