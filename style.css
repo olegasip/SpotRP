@@ -5,7 +5,7 @@ body{
     display: flex;
     flex-direction: column;
     width: auto;
-    min-width: 480px;
+    min-width: 260px;
     margin: 0 5% 0 5%;
     background-color: #383838;
     background-image: url("img/1 (1).png");
@@ -105,8 +105,8 @@ a{
     text-align: center;
 }
 .navbar{
-    /*display: block;*/
-    /*height: 15vmin;*/
+    padding-right: 0;
+    padding-left: 0;
 }
 .navbar-toggler{
     height: 10vmin;
@@ -184,7 +184,7 @@ main{
     /*background-color: indianred;*/
     height: 3rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 300;
     color: white;
     padding: 1.01rem;
@@ -271,5 +271,8 @@ footer img{
     }
     .logo{
         display: inline;
+    }
+    .btn-flex div{
+        font-size: 0.9rem;
     }
 }
