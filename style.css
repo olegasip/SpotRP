@@ -268,6 +268,9 @@ main{
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
 }
+.btn-ptc{
+    margin: 0.4rem 0 0.4rem 0;
+}
 .btn-ptc button{
     background-color: rgba(255, 255, 255, 0);
     border: 0;
@@ -286,7 +289,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    }
 .btn-plus{
     background-image: url("ico/plus.png");
     background-size: 100%;
@@ -305,7 +308,7 @@ main{
 }
 .btn-cor{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     color: white;
@@ -538,5 +541,11 @@ footer{
 }
 
 .delete-btn {
-    width: 200px;
+    background-color: #294179;
+    border: 0;
+    color: white;
+}
+
+.delete-btn:hover{
+    background-color: #20335e;
 }
